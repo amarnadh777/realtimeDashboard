@@ -87,7 +87,7 @@ function FlowchartContent() {
     const newNode = {
       id: newNodeId,
       data: { label: nodeLabel },
-      position: { x: Math.random() * 400, y: Math.random() * 400 },
+      position: { x: Math.random() * 200, y: Math.random() * 400 },
     };
 
     setNodes((nds) => [...nds, newNode]);

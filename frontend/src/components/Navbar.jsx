@@ -36,7 +36,7 @@ function Navbar() {
 
   return (
     <div className="flex bg-white w-full h-[4em] justify-between items-center px-8 md:px-14 shadow-md">
-      <div className="font-bold text-xl text-blue-600">Realtime Chart</div>
+      <div className="font-bold text-xl text-blue-600">Realtime Dashboard</div>
 
       <div className="flex gap-6 items-center">
         <Link
